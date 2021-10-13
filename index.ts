@@ -36,4 +36,3 @@ let randChar = (length:number)=>{
     return result
 }
 
-export default decrypterTextEffect

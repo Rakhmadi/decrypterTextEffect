@@ -1,4 +1,3 @@
-"use strict";
 let decrypterTextEffect = (id, manyTimes, time) => {
     var _a, _b;
     let elementText = document.getElementById(id);
@@ -34,3 +33,4 @@ let randChar = (length) => {
     }
     return result;
 };
+export { randChar, decrypterTextEffect };
