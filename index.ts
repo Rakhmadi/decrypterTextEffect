@@ -27,7 +27,7 @@ let decrypterTextEffect = (id:string,manyTimes:number,time:number)=>{
 }
 
 let randChar = (length:number)=>{
-    let charStr:string = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789~!@#$%^&*()_+-=?/';
+    let charStr:string = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
     let charStrLengt:number = charStr.length;
     let result:string = '';
     for (let x = 0; x < length ; x++) {
