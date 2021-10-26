@@ -1,11 +1,18 @@
 "use strict";
-let decrypterTextEffect = (id, manyTimes, time) => {
+/**
+ *
+ * @param id
+ *
+ * @param manyGenerate
+ * @param time
+ */
+let decrypterTextEffect = (id, manyGenerate, time) => {
     var _a, _b;
     let elementText = document.getElementById(id);
     let textCollect = [];
     if (elementText) {
         let textContent = (_a = elementText.textContent) === null || _a === void 0 ? void 0 : _a.split('');
-        for (let f = 0; f < manyTimes; f++) {
+        for (let f = 0; f < manyGenerate; f++) {
             let valIndex = [];
             for (let s = 0; s < textContent.length; s++) {
                 if (textContent[s] === " ") {
