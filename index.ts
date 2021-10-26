@@ -31,7 +31,11 @@ let decrypterTextEffect = (id:string,manyGenerate:number,time:number)=>{
         }
     }
 }
-
+/**
+ * 
+ * @param length 
+ * @returns 
+ */
 let randChar = (length:number)=>{
     let charStr:string = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
     let charStrLengt:number = charStr.length;
