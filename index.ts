@@ -1,10 +1,13 @@
 /**
+ * By Rakhmadi 
  * 
- * @param id 
+ * @param idElement
  * 
- * @param manyGenerate
- * @param time 
+ * @param manyGenerates
+ * @param times
  */
+
+
 let decrypterTextEffect = (id:string,manyGenerate:number,time:number)=>{
     let elementText:HTMLElement | null = document.getElementById(id)
     let textCollect:Array<any> = []
@@ -31,6 +34,8 @@ let decrypterTextEffect = (id:string,manyGenerate:number,time:number)=>{
         }
     }
 }
+
+
 /**
  * 
  * @param length 
@@ -45,4 +50,3 @@ let randChar = (length:number)=>{
     }
     return result
 }
-

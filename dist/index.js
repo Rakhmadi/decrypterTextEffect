@@ -1,10 +1,11 @@
 "use strict";
 /**
+ * By Rakhmadi
  *
- * @param id
+ * @param idElement
  *
- * @param manyGenerate
- * @param time
+ * @param manyGenerates
+ * @param times
  */
 let decrypterTextEffect = (id, manyGenerate, time) => {
     var _a, _b;
